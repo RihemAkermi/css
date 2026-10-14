@@ -1,0 +1,32 @@
+
+h1 + p {
+    color: blue;
+    font-weight: bold;
+}
+
+
+h1 ~ p {
+    color: gray;
+}
+
+div > p {
+    background-color: #d6cece;
+}
+
+
+[title] {
+    color: green;
+    font-style: italic;
+}
+
+[class^="intro"] {
+    text-transform: uppercase;
+}
+
+[class$="texte"] {
+    font-size: larger;
+}
+
+[class*="special"] {
+    background-color: yellow;
+}
